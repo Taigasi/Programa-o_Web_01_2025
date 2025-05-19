@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+    <title>Aula 01 - CSS</title>
+</head>
+
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        background-color: darkred;
+        color: #000;
+        font-family: "Nunito", sans-serif;
+        font-size: large;
+    }
+
+    nav {
+        background-color: #000;
+        display: flex;
+
+    }
+
+    nav img {
+        width: 20%;
+        height: 40%;
+    }
+
+    nav p {
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+    nav button {
+        background-color: red;
+        color: #fff;
+        height: 30px;
+        padding: 1.3rem;
+        width: 30%;
+        border: solid 4px;
+        margin-left: 15px;
+        margin-right: 20px;
+        height: 2cm;
+        border-radius: 20px;
+        width: 5%;
+        font-size: 20px;
+        font-weight: bolder;
+    }
+
+    nav button:hover {
+        background-color: #fff;
+        ;
+    }
+
+    nav button a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    main {
+        background-color: #fff;
+        padding: 2rem;
+        color: #000;
+        border-radius: 35px;
+        width: 40%;
+        margin: 15px 15px 15px 15px;
+    }
+
+    main h1 {
+        background-color: rebeccapurple;
+        border-radius: 15px;
+        padding: 15px;
+        font-style: italic;
+        letter-spacing: 10px;
+    }
+
+    main select p {
+        line-height: 120%;
+        background-color: gray;
+        border-radius: 15px;
+        color: #fff;
+        padding: 20px;
+    }
+
+    form {
+        margin: 0 auto;
+        display: flex;
+        gap: 30px;
+    }
+
+</style>
+<!--Inicio do site-->
+
+<body>
+    <!-- Barra de navegação-->
+    <nav>
+        <img src="/assets/yuri-alberto-celebra-gol-durante-corinthians-x-palmeiras-jogo-do-campeonato-brasileiro-1730767640248_v2_450x450.jpg"
+            alt="Yuri Alberto, divo dos corinthianos">
+        <p>Yuri Alberto delicinha ai ai</p>
+        <button><a href="https://www.youtube.com/watch?v=q8e1_8kSBUQ" target="_blank">Jogo de Ontem</a></button>
+    </nav>
+    <!--Barra de navegação final-->
+
+    <!--Conteudo da página-->
+    <main>
+        <section>
+
+            <h1>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias dolore cumque explicabo vero esse sed
+                unde voluptatum fugit optio libero ad, mollitia quis ullam. Minima laudantium voluptatem illo dolore
+                quibusdam.</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis atque magnam hic minima, culpa
+                doloribus error vitae asperiores aspernatur incidunt dignissimos ea quibusdam sapiente a tenetur
+                reprehenderit molestias similique sunt.</p>
+
+        </section>
+        <br>
+        <form action="">
+            <p>Você goata do Yuri Alberto?</p>
+            <input type="radio" name="sim" id="sim" value="gostaDoYuri">
+            <label for="sim">Sim, gostosão</label>
+            <input type="radio">
+        </form>
+
+    </main>
+
+
+</body>
+
+</html>

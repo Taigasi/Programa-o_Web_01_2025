@@ -1,0 +1,52 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+header{
+    display: grid;
+    justify-content: center;
+    background-color: deeppink
+}
+
+h1{
+    color: whitesmoke;
+}
+
+img{
+    width: 400px;
+    height: 250px;
+    padding: 30px;
+}
+
+label{
+    color: deeppink;
+    justify-content: center;
+}
+
+footer{
+    justify-content: center;
+    display: flex;
+}
+
+form{
+    justify-content: center;
+    display: grid;
+}
+
+#dadosCliente{
+    background-color: bisque;
+}
+
+.imagemPlano{
+    width: 300px;
+    height: 500px;
+}
+
+#botaoEnviar{
+    width: 200px;
+    height: 50px;
+}

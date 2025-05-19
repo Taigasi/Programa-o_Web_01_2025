@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laricel Telecom</title>
+    <link rel="stylesheet" href="/formulario03.css">
+</head>
+<body>
+    <header>
+        <h1>Laricel Telecom</h1>
+        <img src="/Aula07/larissa-manoela.jpg" alt="Banner da Larissa">
+    </header>
+    <main>
+    
+        <form action="#" id="contrataPlano">
+          
+            <fieldset id="dadosCliente">
+                <legend>Daddos do Cliente</legend>
+
+
+            <label for="">Insira seu nome completo: </label>
+            <input type="text" name="nomeCompleto" id="nomeCompleto">
+
+            <br>
+            <br>
+            <label for="dataNasc">Insira sua data de Nascimento:</label>
+            <input type="date" name="dataNasc" id="dataNasc">
+        
+            <br>
+            <br>
+            <label for="cpf">Insira seu CPF:</label>
+            <input type="text" name="cpf" id="cpf" minlength="11" maxlength="11">
+
+            <br>
+            <br>
+            <label for="cep">Insira seu CEP:</label>
+            <input type="text" id="cep" name="cep" minlength="8" maxlength="8">
+
+            <br>
+            <br>
+            <label for="email">Insira seu e-mail</label>
+            <input type="email" name="email" id="email">
+
+            <br>
+            <br>
+            <label for="telContato">Insira seu telefone:</label>
+            <input type="tel" name="telContato" id="telContato">
+          
+        </fieldset>
+
+        <fieldset id="planos">
+            <legend>Conheça nossos Planos</legend>
+
+            <label for="plano15"><img src="/Aula07/plano15.png" alt="Informações do plano15" class="imagemPlano"></label>
+            <input type="radio" name="planoSelecionado" id="">
+
+            <label for="plano40"><img src="/Aula07/plano40.png" alt="Informações do plano40" class="imagemPlano"></label>
+            <input type="radio" name="planoSelecionado" id="">
+
+            <label for="plano75"><img src="/Aula07/plano75.png" alt="Informações do plano75" class="imagemPlano"></label>
+            <input type="radio" name="planoSelecionado" id="">
+
+        </fieldset>
+
+
+        <input type="submit" value="Contratar Plano" id="botaoEnviar">
+        </form>
+
+
+    </main>
+
+    <br>
+
+    <footer>
+        <p>Desenvolvido no IOS</p>
+    </footer>
+
+</body>
+</html>

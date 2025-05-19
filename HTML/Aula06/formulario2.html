@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 2 Electric Boogaloo</title>
+</head>
+<body>
+    
+<form action="#" method="get">
+
+    <!-- Select permite que o usuário selecione dentre opções determinadas-->
+
+<select name="sudeste" id="sudeste">
+
+    <option value="SP">São Paulo</option>
+    <option value="MG">Minas Gerais</option>
+    <option value="RJ">Rio de Janeiro</option>
+
+</select>
+<!-- Datalist cria uma lista de dados que podem ser acessados pelo restante do formulário snedo comumente utilizado para sugestão de preenchimento-->
+<datalist id="locomocao">
+    <option value="bike"></option>
+    <option value="carro"></option>
+    <option value="barco"></option>
+    <option value="cavalo"></option>
+    <option value="jegue"></option>
+</datalist>
+
+<input autocomplete="on" list="locomocao" name="meiosTransporte" id="meiosTransporte" placeholder="Seu meio de tansporte"/>
+
+
+
+<br>
+<!--O tipo Range serve para criar um slide a fim de facilitar a entrada de dados e um bom exemplo é um slide de volume para um aplicativo de música-->
+
+0
+<input type="range" id="quilometros" name="quilometros" name=""/>100 <br><br>
+
+<input type="submit" value="Enviar">
+
+</form> 
+
+</body>
+</html>
